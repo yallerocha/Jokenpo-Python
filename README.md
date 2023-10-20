@@ -1,4 +1,4 @@
-# Jogo de Jokenpô em Python
+# Jokenpô em Python
 
 ## Descrição
 Este é uma implementação simples do jogo de pedra, papel e tesoura, conhecido como "Jokenpô" em algumas regiões. Você pode jogar contra o computador e desfrutar de uma experiência de jogo clássica. 🎮
@@ -24,13 +24,7 @@ Este é uma implementação simples do jogo de pedra, papel e tesoura, conhecido
 3. Navegue até o diretório que contém o arquivo `jokenpo.py`.
 4. Execute o script digitando `python jokenpo.py`. ▶️
 
-## Autor
-Este jogo de Jokenpô foi programado por Yalle Rocha Silva. 👨‍💻
-
 ## Captura de Tela
 (Inclua uma captura de tela ou gif do seu jogo em ação, se desejar)
-
-## Licença
-Este projeto é de código aberto e está disponível sob a [Licença MIT](LICENSE.md). 📄
 
 Divirta-se jogando Jokenpô! Se tiver alguma dúvida ou feedback, não hesite em entrar em contato com o autor. Divirta-se! 😃
