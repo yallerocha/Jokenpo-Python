@@ -1,8 +1,14 @@
+
 from random import choice
 from time import sleep
-from os import system
+from os import system, name
 
-system('cls')
+if name == 'nt':  
+    cmd = 'cls'
+else:  
+    cmd = 'clear'
+
+system(cmd)
 
 print('=' * 10 + ' VAMOS JOGAR JOKENPÔ ' + '=' * 10 + '\n')
 
@@ -15,7 +21,7 @@ def jokenpo():
     player = input('Faça a sua jogada: ').upper()
     print()
 
-    system('cls')
+    system(cmd)
     print('=' * 10 + ' VAMOS JOGAR JOKENPÔ ' + '=' * 10 + '\n')
 
     if player in jogadas:
@@ -28,7 +34,7 @@ def jokenpo():
         print('PÔ!!!')
         sleep(1)
 
-        system('cls')
+        system(cmd)
         print('=' * 10 + ' VAMOS JOGAR JOKENPÔ ' + '=' * 10 + '\n')
         print(f'Você jogou {player}!\n')
 
@@ -65,7 +71,7 @@ def jokenpo():
         restart()
 
     else:
-        system('cls')
+        system(cmd)
         print('=' * 10 + ' VAMOS JOGAR JOKENPÔ ' + '=' * 10 + '\n')
         print('ERRO: Jogada inválida! Tente novamente.\n')
         jokenpo()
@@ -77,19 +83,19 @@ def restart():
     start = input('Quer jogar novamente? S ou N? ').upper()
 
     if start in respostassim:
-        system('cls')
+        system(cmd)
         print('=' * 10 + ' VAMOS JOGAR JOKENPÔ ' + '=' * 10 + '\n')
         jokenpo()
 
     elif start in respostasnao:
-        system('cls')
+        system(cmd)
         print('=' * 10 + ' VAMOS JOGAR JOKENPÔ ' + '=' * 10 + '\n')
         print('Foi bom jogar com você. Até a próxima! :)\n')
         print('PROGRAMADO POR: Yalle Rocha Silva')
         print('=' * 41)
 
     else:
-        system('cls')
+        system(cmd)
         print('=' * 10 + ' VAMOS JOGAR JOKENPÔ ' + '=' * 10 + '\n')
         print('ERRO: resposta inválida! Tente novamente.')
         restart()
