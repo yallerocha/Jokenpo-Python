@@ -25,6 +25,5 @@ Este é uma implementação simples do jogo de pedra, papel e tesoura, conhecido
 4. Execute o script digitando `python jokenpo.py`. ▶️
 
 ## Captura de Tela
-(Inclua uma captura de tela ou gif do seu jogo em ação, se desejar)
-
+![Imagem do jokempo no terminal](assets/jokenpo.png)
 Divirta-se jogando Jokenpô! Se tiver alguma dúvida ou feedback, não hesite em entrar em contato com o autor. Divirta-se! 😃
